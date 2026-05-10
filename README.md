@@ -2,7 +2,7 @@
 
 A small Python SDK for asking questions over PDFs with either OpenAI or Azure OpenAI.
 
-The SDK extracts PDF text, chunks it, retrieves the most relevant chunks for a question, and sends grounded context to an LLM provider. It is intentionally in-memory and dependency-light so it can be embedded into an API, CLI, worker, or notebook.
+The SDK extracts PDF text, chunks it, retrieves the most relevant chunks for a question, and sends grounded context to an LLM provider. 
 
 ## Install
 
