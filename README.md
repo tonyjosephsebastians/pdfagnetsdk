@@ -32,7 +32,7 @@ print(result.sources)
 
 ## Azure OpenAI
 
-For Azure OpenAI, `model` is your deployment name.
+For Azure OpenAI, `model` is your name.
 
 ```powershell
 $env:AZURE_OPENAI_API_KEY="..."
