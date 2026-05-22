@@ -89,7 +89,7 @@ print(agent.ask("What are the renewal terms?").answer)
 - Strategy: `LLMProvider` and `Retriever` let you swap model providers and retrieval behavior.
 - Adapter: `OpenAIProvider` and `AzureOpenAIProvider` wrap the official OpenAI client behind the same SDK contract.
 - Factory: `ProviderFactory` and `provider_from_env()` centralize provider construction.
-- Builder: `PDFAgentBuilder` assembles agents from PDFs, text, chunking settings, provider adapters, and retrieval strategies.
+- Builder: `PDFAgentBuilder`  agents from PDFs, text, chunking settings, provider adapters, and retrieval strategies.
 
 ## Notes
 
