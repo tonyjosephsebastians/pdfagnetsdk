@@ -27,7 +27,6 @@ agent = PDFAgent.from_pdf(
 
 result = agent.ask("What are the key obligations in this document?")
 print(result.answer)
-print(result.sources)
 ```
 
 ## Azure OpenAI
@@ -66,7 +65,7 @@ print(agent.ask("What is this PDF about?").answer)
 
 ## Builder API
 
-Use the builder when your application needs to assemble an agent from multiple sources or inject custom strategies.
+Use the builder when your application needs to assemble an agent from multiple sources  custom strategies.
 
 ```python
 from pdf_agent_sdk import PDFAgentBuilder, ProviderFactory
