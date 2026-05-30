@@ -68,7 +68,7 @@ print(agent.ask("What is this PDF about?").answer)
 Use the builder when your application needs to assemble an agent from multiple sources  custom strategies.
 
 ```python
-from pdf_agent_sdk import PDFAgentBuilder, ProviderFactory
+from pdf_agent_sdk import PDFAgentBuilder
 
 agent = (
     PDFAgentBuilder()
